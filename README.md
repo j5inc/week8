@@ -31,7 +31,7 @@ Username enumeration is possible on this website due to the developer making the
 
 Vulnerability #2: Cross-Site Scripting (XSS)
 
-This one was pretty straight forward. Any person is able to submit a script via the Feedback form. I submitted a simple script of <script>alert('j5inc found the XSS!');</script>  
+This one was pretty straight forward. Any person is able to submit a script via the Feedback form. I submitted a simple script of <script>alert('j5inc found the XSS!');</script>. After the form was submitted, I logged into the website as a user with priviledges to access the Feedback page.
 
 ![](./screenshots/storedXSS.gif)
 
