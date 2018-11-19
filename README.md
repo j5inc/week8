@@ -27,7 +27,7 @@ Vulnerability #1: Username Enumeration
 
 Username enumeration is possible on this website due to the developer making the text bold when a valid username is entered. This is a poor programming choice because an experienced hacker is looking for ANY difference at all in responses received from the server during the enumeration process.
 
-![](./screenshots/userenum.gif
+![](./screenshots/userenum.gif)
 
 Vulnerability #2: Cross-Site Scripting (XSS)
 
