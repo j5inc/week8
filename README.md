@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: 5 hours spent in total
+Time spent: Approximately 8 hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -55,8 +55,13 @@ This one is pretty straight forward as well. Since we are able to manually enter
 
 ![](./screenshots/IDOR.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery (CSRF)
 
+For this one, I created a form that POSTs an update to the target website. I posted a link in the Feedback section as a user that *could* be known to a site admin. When they go to the link, it silently makes a change to the first name of a user in the database. The gif below highlights how this was accomplished:
+
+Note: To host this form, I created an index.html file in my week8 Github repository. I turned on Pages and used the link shown in the gif.
+
+![](./screenshots/CSRF.gif)
 
 ## Notes
 
