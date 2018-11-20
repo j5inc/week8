@@ -18,9 +18,9 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: Session Hijacking
 
-Web Browsers: Chrome and Safari
+Web Browsers: Chrome Version 70.0.3538.102 and Safari 12.0.1
 
-To complete this challenge, I logged in to the blue website in Chrome using the pperson account. Once logged in, I went to https://104.198.208.81/blue/public/hacktools/change_session_id.php and used this tool to copy my session ID. I then launched Safari and went to the blue website login page. I then went to the change_session_id.php page and pasted the session ID from the Google Chrome session. I then go back to the blue login page in Safari, click Public, and I am brought into the portal as if I am the user pperson.
+To complete this challenge, I logged in to the blue website in Chrome using the pperson account. Once logged in, I went to https://104.198.208.81/blue/public/hacktools/change_session_id.php and used this tool to copy my session ID. I then launched Safari and went to the blue website login page. I went to the change_session_id.php page and pasted the session ID from the Google Chrome session. I then went back to the blue login page in Safari, clicked Public, and was brought into the portal as if I am the user pperson.
 
 ![](./screenshots/sesshijack.gif)
 
