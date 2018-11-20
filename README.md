@@ -28,7 +28,7 @@ Vulnerability #2: SQL Injection
 
 The salesperson page was vulnerable because in the URL there is the id parameter, which when passed a single quote, returns "Database query failed.". That tells me it is susceptible to an SQL Injection attack.  Example: https://104.198.208.81/blue/public/staff/salespeople/show.php?id' OR SLEEP(100)=0--'
 
-I went ahead and did a capture of the denail of service attack above. If a database accepted this command, an attack could render it useless until the problem was resolved. 
+Below is a capture of the denail of service attack. If a database accepts a SLEEP command, an attacker could render it useless until the problem was resolved. 
 
 ![](./screenshots/sqli.gif)
 
