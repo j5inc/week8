@@ -61,7 +61,7 @@ For this one, I created a form that POSTs an update to the target website. I pos
 
 Note: To host this form, I created an index.html file in my week8 Github repository. I turned on Pages and used the link shown in the gif.
 
-![](./screenshots/CSRF.gif)
+![](./screenshots/csrf.gif)
 
 ## Notes
 
