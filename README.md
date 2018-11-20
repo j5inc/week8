@@ -49,7 +49,11 @@ This one was pretty straight forward. Any person is able to submit a script via 
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference (IDOR)
+
+This one is pretty straight forward as well. Since we are able to manually enter an integer for a salesperson id, it is possible to brute force attempts of random integers to find one that works. Luckily, from the pperson account I knew there was a user called "Testy McTesterson" that should not be public. Their profile is viewable by manually entering "10" as the salesperson id.
+
+![](./screenshots/idor.gif)
 
 Vulnerability #2: __________________
 
