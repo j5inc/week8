@@ -16,7 +16,13 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: Session Hijacking
+
+Web Browsers: Chrome and Safari
+
+To complete this challenge, I logged in to the blue website in Chrome using the pperson account. Once logged in, I went to https://104.198.208.81/blue/public/hacktools/change_session_id.php and used this tool to copy my session ID. I then launched Safari and went to the blue website login page. I then went to the change_session_id.php page and pasted the session ID from the Google Chrome session. I then go back to the blue login page in Safari, click Public, and I am brought into the portal as if I am the user pperson.
+
+![](./screenshots/sesshijack.gif)
 
 Vulnerability #2: __________________
 
@@ -46,3 +52,5 @@ Vulnerability #2: __________________
 ## Notes
 
 This one was better because I didn't need to use Kali Linux to complete the assignment. I have an older laptop with 4GB of RAM and a 4th generation i5. I was able to use sqlmap on my Mac, and that was the only "hacker tool" I needed.
+
+
